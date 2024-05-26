@@ -1,0 +1,57 @@
+Pintor
+
+Algoritmo PinturaParedes
+    // Datos de entrada
+    Escribir "Ingrese la altura de la pared"
+    Leer Altura
+    
+    Escribir "Ingrese el ancho de la pared"
+    Leer Ancho
+    
+    Escribir "Ingrese el costo por metro cuadrado del servicio de pintura"
+    Leer CostoPorMetroCuadrado
+    
+    // Cálculos
+    AreaPared = Altura * Ancho
+    
+    // Mostrar información
+    Escribir "La pared tiene dimensiones de ", Ancho, " metros de ancho y ", Altura, " metros de alto."
+    Escribir "El área total a pintar es de ", AreaPared, " metros cuadrados."
+    
+    // Costo total
+    CostoTotal = AreaPared * CostoPorMetroCuadrado
+    Escribir "El costo total por pintar la pared es de: ", CostoTotal
+    
+FinAlgoritmo
+---------------------------------------------------------------------------------------------------
+Notas Estudiantes
+
+Algoritmo CalcularPromedioEstudiante
+    // Entrada de datos
+    Escribir "Ingrese la nota de la materia 1"
+    Leer notaMateria1
+    
+    Escribir "Ingrese la nota de la materia 2"
+    Leer notaMateria2
+    
+    Escribir "Ingrese la nota de la materia 3"
+    Leer notaMateria3
+    
+    Escribir "Ingrese la nota de la materia 4"
+    Leer notaMateria4
+    
+    Escribir "Ingrese la nota de la materia 5"
+    Leer notaMateria5
+    
+    // Cálculos
+    sumaNotas = notaMateria1 + notaMateria2 + notaMateria3 + notaMateria4 + notaMateria5
+    Escribir "La suma de las notas es: ", sumaNotas
+    
+    cantidadMaterias = 5
+    Escribir "La cantidad de materias es: ", cantidadMaterias
+    
+    promedio = sumaNotas / cantidadMaterias
+    
+    // Resultado
+    Escribir "El promedio de las notas es: ", promedio
+FinAlgoritmo
